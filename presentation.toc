@@ -1,0 +1,10 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {2}{Intro}{3}{0}{1}
+\beamer@sectionintoc {3}{Novel addiction treatments from social media}{6}{0}{2}
+\beamer@sectionintoc {4}{2,4-Dinitrophenol}{9}{0}{3}
+\beamer@sectionintoc {5}{Clinical Decision Tool for Novel Synthetic Opioids}{11}{0}{4}
+\beamer@sectionintoc {6}{Predicting SAR of Novel Substances}{12}{0}{5}
+\beamer@sectionintoc {7}{Identifying rare adverse events from COVID Therapeutics}{13}{0}{6}
+\beamer@sectionintoc {8}{Apply AI to Pediatric Poisoning}{14}{0}{7}
+\beamer@sectionintoc {9}{Queens Research}{15}{0}{8}
+\beamer@sectionintoc {10}{Goals for the next year}{17}{0}{9}

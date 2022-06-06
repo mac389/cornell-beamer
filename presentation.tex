@@ -2,7 +2,7 @@
 \input{config/hyphenation}
 
 \setbeamertemplate{Cornell}[numbered]
-
+\usepackage{booktabs}
 \begin{document}
 
 \frame{\titlepage}
@@ -51,62 +51,106 @@
 
 \section{Intro}
 \begin{frame}
-\frametitle{Title}
-\framesubtitle{Subtitle}
-This is a template for presentations in \LaTeX ~beamer. 
+\frametitle{Report Card}
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
 
-A slide can have a title and a subtitle.
+
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Project &
+  Milestones &
+  Difficulties &
+  Funded &
+  Collaboration \\ \midrule
+Identify novel opioid addiction treatments from social media &
+  Nothing published &
+   &
+  Topic of DP5, CDRMP &
+   \\
+    & & & & \\
+Estimating sublethal 2,4-DNP use from social media &
+  Nothing published &
+  In between CS and medicine &
+   &
+   \\
+      & & & & \\
+\begin{tabular}[c]{@{}l@{}}Developing a clinical decision tool to identify \\ non-canonical presentations of opioid agonist toxicity\end{tabular} &
+  Nothing published &
+   &
+   &
+   \\
+   & & & & \\
+\begin{tabular}[c]{@{}l@{}}Developing a neural network to classify the structure of \\ novel psychoactive substances as  primarily (opioid, \\ phenethylamine, tryptamine, cannabinoid, or benzodiazepine)\end{tabular} &
+  Nothing published &
+   &
+   &
+   \\
+      & & & & \\
+\begin{tabular}[c]{@{}l@{}}Identify previously unknown adverse effects \\ from COVID-19 therapeutics\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}1 review published, \\ 2 pre-accepted\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}ACMT data collection not rigorous\\ enough to allow for original research\end{tabular} &
+  Yes, by FDA &
+  FDA, ACMT \\
+     & & & & \\
+Developing an ontology of pediatric poisoning &
+  Nothing Published &
+  Bandwidwth &
+  No &
+  Yes, Lyon \\ \bottomrule
+\end{tabular}%
+}
+
+
 \end{frame}
 
-\section{Basic Commands}
-
-\begin{frame}
-\frametitle{Basic Commands}
-\framesubtitle{\texttt{enumerate} \& \texttt{itemize}}
-If you want a 2 column layout, use the \texttt{multicols} environment:
-\begin{multicols}{2}
-\begin{enumerate}
-\item First
-\item Second
-\item Third
-\end{enumerate}
+\begin{frame}{Who I work with}
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{\labelsep}
 \begin{itemize}
-\item This
-\item and
-\item that
+	\item[] Andrew Moreno (WCM Class of 24, AOC): Decision Tool
+	\item[]
+	\item[] Abdel Abdelati (NYP-Qatar, Class of 24): DNP
+	\item[] 
+	\item[] Ciara Balanz\'{a} (High School): Neural Network
+	\item[] 
+	\item[] Stefan Bartell, PhD: Drug Discovery, Ontology
 \end{itemize}
-\end{multicols}
-\end{frame}
-
-\begin{frame}
-\frametitle{Basic Commands}
-\framesubtitle{Images}
-
-Images can be included as usual -- or with the \texttt{\textbackslash image} command.
-\end{frame}
-
-\section{Blocks}
-
-\begin{frame}
-\frametitle{Blocks}
-
-\begin{block}{Blocktitle}
-This is a normal block.
-\end{block}
-
-\begin{alertblock}{Alert}
-This is an alert block.
-\end{alertblock}
-
-
-\begin{exampleblock}{Example}
-   This is an example block.
-\end{exampleblock}
 
 \end{frame}
 
-\section{References}
+\section[Drug Discovery]{Novel addiction treatments from social media}
 
+\begin{frame}{In One Page}
+bort
+\end{frame}
+
+\begin{frame}{Preliminary Data}
+
+\end{frame}
+
+\section{2,4-Dinitrophenol}
+
+\begin{frame}{In One Slide}
+bort 
+\end{frame}
+
+\section[Decision Tool]{Clinical Decision Tool for Novel Synthetic Opioids}
+
+\section[Neural Network]{Predicting SAR of Novel Substances}
+
+\section[COVID Tox]{Identifying rare adverse events from COVID Therapeutics}
+
+\section[Les enfants]{Apply AI to Pediatric Poisoning}
+
+\section{Queens Research}
+\begin{frame}{Tracking Grid}
+make table
+\end{frame}
+
+\section[Future]{Goals for the next year}
 \begin{frame}
 \frametitle{References}
 References can be used with the \texttt{BibTeX} commands  \cite{Knuth.1986}. The list of references  will be shown at the end of the presentation with the preferred style.
