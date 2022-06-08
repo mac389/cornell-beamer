@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.25)  5 JUN 2022 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.25)  7 JUN 2022 12:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -908,6 +908,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count180
 \@thisrulewidth=\dimen275
 )
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box90
+\UL@hyphenbox=\box91
+\UL@skip=\skip68
+\UL@hook=\toks50
+\UL@height=\dimen276
+\UL@pe=\count181
+\UL@pixel=\dimen277
+\ULC@box=\box92
+Package: ulem 2019/11/18
+\ULdepth=\dimen278
+)
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
@@ -967,17 +979,17 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count181
-\scratchdimen=\dimen276
-\scratchbox=\box90
-\nofMPsegments=\count182
-\nofMParguments=\count183
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count184
-\MPscratchDim=\dimen277
-\MPnumerator=\count185
-\makeMPintoPDFobject=\count186
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count182
+\scratchdimen=\dimen279
+\scratchbox=\box93
+\nofMPsegments=\count183
+\nofMParguments=\count184
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count185
+\MPscratchDim=\dimen280
+\MPnumerator=\count186
+\makeMPintoPDFobject=\count187
+\everyMPtoPDFconversion=\toks52
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -988,7 +1000,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box91
+\AtBeginShipoutBox=\box94
 Package hyperref Info: Link coloring OFF on input line 6.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1001,7 +1013,7 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count187
+\c@section@level=\count188
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -1035,8 +1047,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./presentation.nav)
-Overfull \hbox (367.37146pt too wide) detected at line 6
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) detected at line 6
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1045,8 +1057,8 @@ Overfull \hbox (2.12503pt too wide) in paragraph at lines 6--6
  []
 
 
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1057,8 +1069,8 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/uniheader.pdf>] (./presentation.toc)
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1068,13 +1080,62 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [2
 
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 52
- []
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+05.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+05.
 
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+105.
 
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+105.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 105.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 105.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 105.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
+.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
+.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
+5.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 10
+5.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1085,61 +1146,8 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 [3
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-07.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-07.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-107.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-107.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 107.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 107.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 107.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 107
-.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 107
-.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-7.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 10
-7.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1150,8 +1158,8 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 [4
 
 ]
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1161,13 +1169,9 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [5
 
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 124
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+]
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1178,8 +1182,8 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 [6
 
 ]
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1190,8 +1194,8 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1201,13 +1205,9 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [8
 
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 134
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+]
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1218,8 +1218,8 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1229,13 +1229,9 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [10
 
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 140
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+]
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1245,13 +1241,9 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [11
 
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 142
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+]
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1261,13 +1253,9 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [12
 
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 144
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
+]
+Overfull \hbox (333.11093pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1276,101 +1264,6 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
  []
 
 [13
-
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 146
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.12503pt too wide) has occurred while \output is active
-[][] 
- []
-
-[14
-
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 148
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.12503pt too wide) has occurred while \output is active
-[][] 
- []
-
-[15
-
-]
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.12503pt too wide) has occurred while \output is active
-[][] 
- []
-
-[16
-
-] (./presentation.toc)
-Overfull \vbox (64.92133pt too high) detected at line 153
- []
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.12503pt too wide) has occurred while \output is active
-[][] 
- []
-
-[17
-
-]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-157.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Citation `Knuth.1986' on page 18 undefined on input line 157.
-
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.12503pt too wide) has occurred while \output is active
-[][] 
- []
-
-[18
-
-]
-No file presentation.bbl.
-
-Overfull \hbox (367.37146pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.12503pt too wide) has occurred while \output is active
-[][] 
- []
-
-[19
 
 ]
 \tf@nav=\write6
@@ -1382,37 +1275,33 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: A1767300DD47B33D3CEA17659CBB114D;663.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 02BB0AB32B5E29E9BFE96BD6AF7EF2C3;566.
  ) 
 Here is how much of TeX's memory you used:
- 19862 strings out of 492162
- 374987 string characters out of 6125292
- 471612 words of memory out of 5000000
- 23581 multiletter control sequences out of 15000+600000
- 39879 words of font info for 48 fonts, out of 8000000 for 9000
+ 19856 strings out of 492162
+ 374730 string characters out of 6125292
+ 472719 words of memory out of 5000000
+ 23609 multiletter control sequences out of 15000+600000
+ 36854 words of font info for 46 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  61i,19n,63p,803b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2019/texmf-dis
-t/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/public/lm/lmss17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
-/lm/lmss8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbx1
-0.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on presentation.pdf (19 pages, 173891 bytes).
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/public/lm/lmss17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
+ic/lm/lmss8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy1
+0.pfb>
+Output written on presentation.pdf (13 pages, 136290 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 50 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

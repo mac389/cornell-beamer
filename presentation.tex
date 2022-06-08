@@ -2,38 +2,38 @@
 \input{config/hyphenation}
 
 \setbeamertemplate{Cornell}[numbered]
-\usepackage{booktabs}
+\usepackage{booktabs, graphicx,ulem}
 \begin{document}
 
+%\AtBeginSection[]
+%{
+%  \frame<handout:0>
+%  {
+%    \frametitle{Outline}
+%    \tableofcontents[currentsection,hideallsubsections]
+%  }
+%}
+%
+%\AtBeginSubsection[]
+%{
+%  \frame<handout:0>
+%  {
+%    \frametitle{Outline}
+%    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide,subsubsectionstyle=hide]
+%  }
+%}
+%
+%\AtBeginSubsubsection[]
+%{
+%  \frame<handout:0>
+%  {
+%    \frametitle{Outline}
+%    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+%  }
+%}
+
+
 \frame{\titlepage}
-
-\AtBeginSection[]
-{
-  \frame<handout:0>
-  {
-    \frametitle{Outline}
-    \tableofcontents[currentsection,hideallsubsections]
-  }
-}
-
-\AtBeginSubsection[]
-{
-  \frame<handout:0>
-  {
-    \frametitle{Outline}
-    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide,subsubsectionstyle=hide]
-  }
-}
-
-\AtBeginSubsubsection[]
-{
-  \frame<handout:0>
-  {
-    \frametitle{Outline}
-    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
-  }
-}
-
 \newcommand<>{\highlighton}[1]{%
   \alt#2{\structure{#1}}{{#1}}
 }
@@ -52,9 +52,7 @@
 \section{Intro}
 \begin{frame}
 \frametitle{Report Card}
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-% \usepackage{graphicx}
+
 
 
 \resizebox{\columnwidth}{!}{%
@@ -80,7 +78,7 @@ Estimating sublethal 2,4-DNP use from social media &
 \begin{tabular}[c]{@{}l@{}}Developing a clinical decision tool to identify \\ non-canonical presentations of opioid agonist toxicity\end{tabular} &
   Nothing published &
    &
-   &
+   & Habboushe?
    \\
    & & & & \\
 \begin{tabular}[c]{@{}l@{}}Developing a neural network to classify the structure of \\ novel psychoactive substances as  primarily (opioid, \\ phenethylamine, tryptamine, cannabinoid, or benzodiazepine)\end{tabular} &
@@ -124,7 +122,20 @@ Developing an ontology of pediatric poisoning &
 \section[Drug Discovery]{Novel addiction treatments from social media}
 
 \begin{frame}{In One Page}
-bort
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{\labelsep}
+\begin{itemize}
+	\item[] \uline{Background}: Rising OUD, marginally ineffective treatments
+	\item[] \uline{Insight}: Online Discussions are a Proxy for Self-Experimentation
+	\item[] \uline{Hypothesis}: Online Discussions May Identify Druggable Lead Compounds
+	\item[] \uline{Approach}
+	\begin{itemize}
+		\item[] NLP of Social Media
+		\item[] Link social media data with established effects via ontology
+	\end{itemize} 
+	\item[] \uline{Work To Date}
+	\item[] \uline{Next Steps}
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Preliminary Data}
@@ -133,40 +144,132 @@ bort
 
 \section{2,4-Dinitrophenol}
 
-\begin{frame}{In One Slide}
-bort 
+\begin{frame}{In One Page}
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{\labelsep}
+\begin{itemize}
+	\item[] \uline{Background}: Disordered eating; alluring supplement used despite FDA ban
+	\item[] \uline{Insight}: Online Discussions are the only \emph{human} data source
+	\item[] \uline{Hypothesis}: Online Discussions May Identify Dose-Effect Relationships
+	\item[] \uline{Approach}
+	\begin{itemize}
+		\item[] NLP of Social Media
+		\item[] Link social media data with established effects via ontology
+	\end{itemize} 
+	\item[] \uline{Work To Date}
+	\item[] \uline{Next Steps}
+\end{itemize}
 \end{frame}
 
 \section[Decision Tool]{Clinical Decision Tool for Novel Synthetic Opioids}
+\begin{frame}{In One Page}
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{\labelsep}
+\begin{itemize}
+	\item[] \uline{Background}: New opioids (seem to) cause more toxicity than traditional toxidrome
+	\item[] \uline{Insight}: Ontologies can support MDM more transparently than other approaches
+	\item[] \uline{Approach}
+	\begin{itemize}
+		\item[] Ontology of Novel Synthetic Opioids
+		\item[] Software Development (MD Calc integration?)
+	\end{itemize} 
+	\item[] \uline{Work To Date}
+	\item[] \uline{Next Steps}
+\end{itemize}
+\end{frame}
+
 
 \section[Neural Network]{Predicting SAR of Novel Substances}
+\begin{frame}{In One Page}
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{\labelsep}
+\begin{itemize}
+	\item[] \uline{Background}: People describe self-treatment online
+	\item[] \uline{Insight}:Online Discussions May Identify Druggable Lead Compounds 
+	\item[] \uline{Approach:} NLP $\Rightarrow$ CNN $\Rightarrow$ Ontology
+	\item[] \uline{Work To Date}
+	\item[] \uline{Next Steps}
+\end{itemize}
+\end{frame}
 
-\section[COVID Tox]{Identifying rare adverse events from COVID Therapeutics}
+\section[COVID]{Identifying rare adverse events from COVID Therapeutics}
+\begin{frame}{In One Page}
+
+The FDA has contracted with ACMT to identify adverse events from COVID therapeutics (multi-site data collection)\\
+\vspace{1em}
+We are reporting.\\
+\vspace{1em}
+Just started screening specific populations (pregnant, pediatric). \\
+\end{frame} 
+
 
 \section[Les enfants]{Apply AI to Pediatric Poisoning}
+\begin{frame}{In One Page}
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{\labelsep}
+\begin{itemize}
+	\item[] \uline{Background}: AI can identify the causes of some poisonings in adults. Children aren't small adults. 
+	\item[] \uline{Insight}: Markov logic can extend ontologies
+	\item[] \uline{Approach:} Clinical Data $\Rightarrow$ Markov Coefficients; Ontology
+	\item[] \uline{Work To Date}
+	\item[] \uline{Next Steps}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{What's an Ontology?}
+
+\end{frame}
 
 \section{Queens Research}
 \begin{frame}{Tracking Grid}
-make table
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Project &
+  Milestones &
+  Difficulties &
+  Funded &
+  Collaboration \\ \midrule
+ Effect of Translator Use on TTD, Pain Medication &
+  In Revision &
+   & &
+   \\
+    & & & & \\
+Digital Phenotypes of DKA by Dispo &
+  Applying for IRB &
+   &
+   & Yiye?
+   \\
+      & & & & \\
+ RCT of proning in mild COVID &
+  Writing manuscript &
+   &
+   &
+   \\
+   & & & & \\
+  \bottomrule
+\end{tabular}%
+}
+
 \end{frame}
 
-\section[Future]{Goals for the next year}
-\begin{frame}
-\frametitle{References}
-References can be used with the \texttt{BibTeX} commands  \cite{Knuth.1986}. The list of references  will be shown at the end of the presentation with the preferred style.
-\end{frame}
+%\section[Future]{Goals for the next year}
+%\begin{frame}
+%\frametitle{References}
+%References can be used with the \texttt{BibTeX} commands  \cite{Knuth.1986}. The list of references  will be shown at the end of the presentation with the preferred style.
+%\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%       References      %%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{}
-\begin{frame}[allowframebreaks]{References}
-\def\newblock{\hskip .11em plus .33em minus .07em}
-\scriptsize
-\bibliographystyle{alpha}
-\bibliography{literature/bib}
-\normalsize
-\end{frame}
+%\section*{}
+%\begin{frame}[allowframebreaks]{References}
+%\def\newblock{\hskip .11em plus .33em minus .07em}
+%\scriptsize
+%\bibliographystyle{alpha}
+%\bibliography{literature/bib}
+%\normalsize
+%\end{frame}
 
 \end{document}
